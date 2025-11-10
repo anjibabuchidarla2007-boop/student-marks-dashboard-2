@@ -9,7 +9,7 @@ app = Flask(__name__)
 # ---------------------------
 SUPABASE_URL = "https://bidqmjsfyjizhttcjkol.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJpZHFtanNmeWppemh0dGNqa29sIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MjcxMzE4NSwiZXhwIjoyMDc4Mjg5MTg1fQ.x12d46OLujL3O3DJ2ccAJFMglxLaU-8ka8hymMZUBjY"
-"
+
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
